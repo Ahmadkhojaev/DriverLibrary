@@ -9,7 +9,6 @@ namespace DriverLibrary.Controller;
 
 [ApiController]
 [Route("/api/controller")]
-[Authorize]
 
 public class DriverController : ControllerBase
 {
@@ -32,4 +31,11 @@ public class DriverController : ControllerBase
         }
         return BadRequest();
     }
+
+    [HttpGet("/getall")]
+    public async Task<IActionResult> GetAll()
+    {
+        var result = await _service.GetAllDriverAsync();
+        return Ok(result);
+    } 
 }

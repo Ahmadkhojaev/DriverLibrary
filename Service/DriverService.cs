@@ -1,5 +1,8 @@
 using DriverLibrary.Data;
 using DriverLibrary.Entities;
+using DriverLibrary.Mapper;
+using DriverLibrary.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace DriverLibrary.Service;
 
@@ -19,10 +22,8 @@ public class DriverService : IDriverService
         throw new NotImplementedException();
     }
 
-    public Task<List<Driver>> GetAllDriverAsync()
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<List<DriverModel>> GetAllDriverAsync()
+    => await _context.Drivers.Select(a => a.ToModel()).ToListAsync();
 
     public Task<Driver> GetDriverByIdAsync(Guid id)
     {

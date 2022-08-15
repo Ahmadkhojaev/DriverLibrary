@@ -9,6 +9,7 @@ public static class NewBaseType
     => new Driver()
     {
         Id = Guid.NewGuid(),
+        Username = model.Username,
         LastName = model.LastName,
         FirstName = model.LastName
     };
@@ -16,6 +17,7 @@ public static class NewBaseType
     public static DriverModel ToModel (this Driver driver)
     => new DriverModel()
     {
+        Username = driver.Username,
         LastName = driver.LastName,
         FirstName = driver.FirstName
     };

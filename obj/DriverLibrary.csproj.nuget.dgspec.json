@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj": {}
+    "c:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj": {
+    "c:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj",
+        "projectUniqueName": "c:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj",
         "projectName": "DriverLibrary",
-        "projectPath": "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj",
+        "projectPath": "c:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj",
         "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\obj\\",
+        "outputPath": "c:\\Users\\Ahmad\\dotnet\\DriverLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
